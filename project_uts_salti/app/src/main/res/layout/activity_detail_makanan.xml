@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFBF9"
+    tools:context=".DetailMakanan">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:id="@+id/imgDNMakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="40sp"
+        android:layout_marginBottom="15sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sate"/>
+
+    <TextView
+        android:id="@+id/txtHargaMakananD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="40sp"
+        android:text="Harga Makanan"
+        android:textColor="#FF6E40"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtNamaMakananD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="40sp"
+        android:text="Nama Makanan"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDeksMakananDUts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="2sp"
+        android:layout_marginRight="30sp"
+        android:text="Deskripsi Makanan"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtNamaToppingDUts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginRight="40sp"
+        android:text="Nama Topping"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtToppingDUts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Topping"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30sp"
+        android:textSize="20sp" />
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

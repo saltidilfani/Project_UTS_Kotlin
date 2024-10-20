@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFDF62">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtDNmakanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="30sp"
+            android:padding="12sp"
+            android:text="Mexican Appetizer"
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FBFBFB"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgDNmakanan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="50sp"
+                android:layout_marginRight="40sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40sp"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginRight="40sp"
+                    android:text="$50.00"
+                    android:textColor="#FF6E40"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="40sp"
+                    android:text="Tortilla Chips With Toppins"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40sp"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginRight="40sp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+                    android:textSize="9sp" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginRight="40sp"
+                    android:text="Toppings"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="40sp"
+                    android:text="Guacamole "
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="40sp"
+                    android:text="Jalapeños"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="40sp"
+                    android:text="Ground Beef"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="40sp"
+                    android:text="Pico de Gallo"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
